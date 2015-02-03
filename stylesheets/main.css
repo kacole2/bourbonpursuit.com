@@ -18,32 +18,26 @@ h1, h2, h3, h4, p {
 
 h1 {
   font-size: 2.76em;
-  font-weight: 700;
 }
 
 h2 {
   font-size: 1.56em;
-  font-weight: 500;
 }
 
 h3 {
   font-size: 1.35em;
-  font-weight: 400;
 }
 
 h4 {
   font-size: 1em;
-  font-weight: 400;
 }
 
 p, td {
-  font-weight: 400;
   font-size: .95em;
 }
 
 a {
   font-family: 'Quattrocento Sans', sans-serif;
-  font-weight: 400;
   font-size: .96em;
   color: #AD855C;
   text-decoration: none;
