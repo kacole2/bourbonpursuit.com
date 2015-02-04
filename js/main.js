@@ -15,7 +15,6 @@ $( document ).ready(function() {
         $(this).find('.arrow').toggleClass("arrowdown arrowup");
       });
     };
-    
 
     $(function() {
       $('a[href*=#]:not([href=#])').click(function() {

@@ -20,6 +20,12 @@
 	  padding: 0 2.5%
 	}
 
+	#socialicons li img:hover {
+	  transform: translateY(0px);
+	  -ms-transform: translateY(0px); /* IE 9 */
+	  -webkit-transform: translateY(0px); /* Chrome, Safari, Opera */
+	}
+
 }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
@@ -28,6 +34,11 @@
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 765px) {
+	body {
+	  background: url('../images/765bg.jpg') 0 0 no-repeat; 
+	  background-size: 100% 100%;
+	}
+
 	#content {
 	    width: 600px;
 	    padding: 100px 0 20px;
@@ -52,6 +63,11 @@
 	  width: 55%;
 	  padding: 0% 2.5%;
 	}
+	#socialicons li {
+  		width: 23%;
+  		padding: 0;
+  		margin: 0;
+	}
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -74,11 +90,8 @@
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
 	body {
-	  background: url('../images/barrelbg.jpg') fixed;
-	  -webkit-background-size: cover; /* For WebKit*/
-	    -moz-background-size: cover;    /* Mozilla*/
-	    -o-background-size: cover;      /* Opera*/
-	    background-size: cover;         /* Generic*/
+	  background: url('../images/480bg.jpg') 0 0 no-repeat; 
+	  background-size: 100% 100%;
 	}
 
 	header, #menu {
@@ -126,5 +139,4 @@
 	#bioicons li {
   		width: 10%;
   	}
-
 }

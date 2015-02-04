@@ -246,7 +246,7 @@ body {
 
 #socialicons li {
   margin: 0 2.5%;
-  width: 15%;
+  width: 10%;
   -webkit-box-shadow: 0px 0px 0px 0px #000000;
   -moz-box-shadow: 0px 0px 0px 0px #000000;
   box-shadow: 0px 0px 0px 0px #000000;
@@ -254,7 +254,7 @@ body {
 }
 
 #socialicons li img {
-  width: 75%;
+  width: 100%;
   transition: all .5s ease-in-out;
 }
 
