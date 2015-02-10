@@ -15,37 +15,38 @@
 	}
 
 	#menu li {
-	  font-size: 2.2.5em;
-	  display: inline-block;
-	  padding: 0 2.5%
+	  	font-size: 2.2.5em;
+	  	display: inline-block;
+	  	padding: 0 2.5%
 	}
 
 	#socialicons li img:hover {
-	  transform: translateY(0px);
-	  -ms-transform: translateY(0px); /* IE 9 */
-	  -webkit-transform: translateY(0px); /* Chrome, Safari, Opera */
+	  	transform: translateY(0px);
+	  	-ms-transform: translateY(0px); /* IE 9 */
+	  	-webkit-transform: translateY(0px); /* Chrome, Safari, Opera */
 	}
 
-	#logo li img{ 
-	  width: 30%;
+	#logo {
+	  font-size: 3.7em;
+	}
+
+	#logo img{ 
+	  width: 33%;
 	  vertical-align: middle;
 	}
 
-	#logo li h1{ 
-	  font-size: 4.0em;
-	}
-
 }
 
-/* Tablet Portrait size to standard 960 (devices and browsers) */
+/* Tablet Portrait size to standard 960 (devices and browsers) 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-}
+
+}*/
 
 /* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 765px) {
+@media only screen and (max-width: 769px) {
 	body {
-	  background: url('../images/765bg.jpg') 0 0 no-repeat; 
-	  background-size: 100% 100%;
+	  	background: url('../images/765bg.jpg') 0 0 no-repeat; 
+	  	background-size: 100% 100%;
 	}
 
 	#content {
@@ -59,18 +60,18 @@
   	}
 
   	#photo {
-	  width: 20%;
-	  padding: 0%
+	  	width: 20%;
+	  	padding: 0%
 	}
 
 	.episodeimg {
-	  width: 100px;
-	  margin: 5%;
+	  	width: 100px;
+	  	margin: 5%;
 	}
 
 	#player {
-	  width: 55%;
-	  padding: 0% 2.5%;
+	  	width: 55%;
+	  	padding: 0% 2.5%;
 	}
 	#socialicons li {
   		width: 23%;
@@ -78,13 +79,13 @@
   		margin: 0;
 	}
 
-	#logo li img{ 
-	  width: 55%;
-	  vertical-align: middle;
+	#logo {
+	  font-size: 3.0em;
 	}
 
-	#logo li h1{ 
-	  font-size: 4.2em;
+	#logo img{ 
+	  width: 70%;
+	  vertical-align: middle;
 	}
 }
 
@@ -157,13 +158,4 @@
 	#bioicons li {
   		width: 10%;
   	}
-
-  	#logo li img{ 
-	  width: 60%;
-	  vertical-align: middle;
-	}
-
-	#logo li h1{ 
-	  font-size: 3.2em;
-	}
 }
