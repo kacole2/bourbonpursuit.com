@@ -140,14 +140,14 @@ body {
 /****************************
   BOXES
 ****************************/
-#socialicons, #episodes, #bios, #bioicons, #socialicons, #contact {
+#listenon, #socialicons, #episodes, #bios, #bioicons, #socialicons, #contact {
   list-style: none;
   width: 100%;
   margin: 0;
   padding: 0;
 }
 
-#episodes li, #bios li, #bioicons li, #socialicons li, #contact li {
+#listenon li, #episodes li, #bios li, #bioicons li, #socialicons li, #contact li {
   display: inline-block;  
   margin-top: 10px;
   margin-bottom: 10px;
@@ -288,7 +288,7 @@ body {
   border: 2px solid #AD855C;
 }
 
-#socialicons li {
+#listenon li, #socialicons li {
   margin: 0 2.5%;
   width: 10%;
   -webkit-box-shadow: 0px 0px 0px 0px #000000;
@@ -297,7 +297,11 @@ body {
   background-color:rgba(0, 0, 0, 0.0);
 }
 
-#socialicons li img {
+#listenon li {
+  width: 20%;
+}
+
+#listenon li img, #socialicons li img {
   width: 100%;
   transition: all .5s ease-in-out;
 }
