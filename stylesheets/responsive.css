@@ -96,6 +96,10 @@
 	  width: 70%;
 	  vertical-align: middle;
 	}
+
+	.mobile100 {
+	  width: 100%;
+	}
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
