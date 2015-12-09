@@ -100,6 +100,10 @@
 	.mobile100 {
 	  width: 100%;
 	}
+
+	.credit_image {
+  		width: 20%;
+  	}
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -188,5 +192,9 @@
 
 	#bioicons li {
   		width: 10%;
+  	}
+
+  	.credit_image {
+  		width: 35%;
   	}
 }

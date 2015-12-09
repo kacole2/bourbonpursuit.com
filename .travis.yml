@@ -1,0 +1,10 @@
+language: node_js
+branches:
+  only:
+    - master
+env:
+  global:
+  - secure: h6i/QFDLprVJe7u/ZTbzx7RkHDvQFBYrLKKeTCsnCQocroIaEm9GVtYMDe2WVsistsWQwTdPzEM7t3oF3ksZYF/YpUnkkcOuscIyG+kkqjD3b/jsINX56+yaANnbVhC3AQ7u3IqZ7X1g9cWUQstRjMl4P5bHAkkuH2CBXFA3kEw=
+  - secure: CeolZiNWmqNp03j2bFFizDqMZ3ICFFn+5PO5ZS7IsvcxLKhiy1ND4cZxAgdDQRpeplPYXuKxXNS85B1nvj++5PdC5NSXxAtfj6b55hPTB7PFwDwI/8doICyzXifJdOfxuenmlGp70VQ42YGO3jXze7/kgNe/EH/M/lBc85fsV58=
+after_success:
+  - ./deploy.sh 

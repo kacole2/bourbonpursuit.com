@@ -140,14 +140,14 @@ body {
 /****************************
   BOXES
 ****************************/
-#listenon, #socialicons, #episodes, #bios, #bioicons, #socialicons, #contact {
+#listenon, #socialicons, #episodes, #bios, #bioicons, #socialicons, #contact, #credits {
   list-style: none;
   width: 100%;
   margin: 0;
   padding: 0;
 }
 
-#listenon li, #episodes li, #bios li, #bioicons li, #socialicons li, #contact li {
+#listenon li, #episodes li, #bios li, #bioicons li, #socialicons li, #contact li, #credits li {
   display: inline-block;  
   margin-top: 10px;
   margin-bottom: 10px;
@@ -162,7 +162,7 @@ body {
   border-radius: 15px;
 }
 
-#episodes li {
+#episodes li{
   width: 100%;
 }
 
@@ -261,10 +261,10 @@ body {
 }
 
 #bios li { 
-  width: 45%;
+  width: 47.5%;
 }
 
-#bio p, #contact p {
+#bio p, #contact p, #credits p {
   padding: 0 15px;
 }
 
@@ -309,4 +309,17 @@ body {
   transform: translateY(10px);
   -ms-transform: translateY(10px); /* IE 9 */
   -webkit-transform: translateY(10px); /* Chrome, Safari, Opera */
+}
+
+.credit_title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.15em;
+  margin: 1% 0 0;
+  padding: 0;
+}
+
+.credit_image {
+  width: 10%;
+  border-radius:15px;
+  padding:1% 1% 1% 0%;
 }

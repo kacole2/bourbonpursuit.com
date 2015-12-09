@@ -1,0 +1,8 @@
+{
+  "name": "bourbonpursuit.com",
+  "description": "bourbonpursuit website",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "node test.js"
+  }
+}
