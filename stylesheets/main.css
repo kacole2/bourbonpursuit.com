@@ -167,18 +167,20 @@ body {
 }
 
 #epnum {
-  width: 12%;
+  width: 14%;
   float: left;
+  margin-top: 18px;
   padding: 0%
 }
 
 #epnum p {
   margin: 5px 0 0;
   text-align: center;
+  font-size: 1.20em;
 }
 
 #epnum h2 {
-  font-size: 1.90em;
+  font-size: 1.95em;
   text-align: center;
   border: 3px solid white;
   border-radius: 100px;
@@ -192,20 +194,24 @@ body {
 }
 
 #player {
-  width: 70%;
+  width: 66%;
   float: left;
   padding: 0% 2.5%;
 }
 
 #player iframe {
-  height: 50px;
+  height: 90px;
   width: 100%; 
   padding-top: 5px;
   border: none;
 }
 
+#player p {
+  margin-top: 2px;
+}
+
 #photo {
-  width: 12%;
+  width: 15%;
   float: left;
   padding: 0%
 }
