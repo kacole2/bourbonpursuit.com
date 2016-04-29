@@ -92,8 +92,12 @@
   		margin: 0;
 	}
 
-	#listenon li {
+	#listenon li, {
 	  width: 40%;
+	}
+
+	#patreonBanner {
+		width: 75%;
 	}
 
 	#logo {
