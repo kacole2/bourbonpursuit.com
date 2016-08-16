@@ -51,7 +51,7 @@
 }*/
 
 /* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 768px) {
 	body {
 	  	background: url('../images/765bg.jpg') 0 0 no-repeat; 
 	  	background-size: 100% 100%;
@@ -116,10 +116,26 @@
 	.credit_image {
   		width: 20%;
   	}
+  	
+  	#episode-pagination li h2 {
+  		font-size: 2.8em;
+  	}
+
+  	#episode-pagination li h1 {
+  		font-size: 3.5em;
+  	}
+
+  	.episode-pagination-arrows {
+	  width: 10%;
+	}
+
+	.episode-pagination-more {
+	  width: 65%;
+	}
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 768px) {
   	#content {
 	    width: 520px;
 	    padding: 30px 0 10px;
@@ -131,6 +147,17 @@
 
 	.slicknav_menu {
 		display:block;
+	}
+
+	#logo img{ 
+	  width: 30%;
+	  vertical-align: middle;
+	}
+
+	#socialicons li {
+  		width: 15%;
+  		padding: 0;
+  		margin: 0;
 	}
 
 }
@@ -210,5 +237,13 @@
 
   	.credit_image {
   		width: 35%;
+  	}
+
+  	#episode-pagination li h2 {
+  		font-size: 1.8em;
+  	}
+
+  	#episode-pagination li h1 {
+  		font-size: 2.7em;
   	}
 }
