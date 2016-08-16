@@ -91,7 +91,6 @@ header {
 
 #menu {
   text-align: center;
-  /*margin-left: -5%*/
 }
 
 #menu li {
@@ -140,7 +139,7 @@ body {
 /****************************
   BOXES
 ****************************/
-#listenon, #socialicons, #episodes, #bios, #bioicons, #socialicons, #contact, #credits {
+#listenon, #socialicons, #episodes, #bios, #bioicons, #socialicons, #contact, #credits, #episode-pagination {
   list-style: none;
   width: 100%;
   margin: 0;
@@ -161,6 +160,38 @@ body {
   box-shadow: 0px 0px 25px 0px #000000;
   border-radius: 15px;
 }
+
+#episode-pagination li {
+  display: inline-block; 
+  margin: 0% 2%;
+}
+
+.episode-pagination-arrows {
+  width: 15%;
+}
+
+.episode-pagination-more {
+  width: 55%;
+}
+
+#episode-pagination li h1 {
+  text-align: center;
+  text-shadow: 2px 2px #000;
+  font-size: 5em;
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
+
+#episode-pagination li h1:hover {
+  color: #AD855C;
+  text-decoration: none;
+}
+
+#episode-pagination li h2 {
+  font-size: 3.5em;
+  text-align: center;
+}
+
 
 #episodes li{
   width: 100%;
